@@ -1,0 +1,159 @@
+#+SETUPFILE: theme-readtheorg.setup
+
+* Emacs Commands
+** Remapping keys
+*** Example
+ 
+    + C-x C-u ==> upcase-region
+    + remap keys to undo
+    + (define-key global-map "\C-x\C-u" 'undo)
+    + Example if hit upcase... by mistake for undo
+
+
+** File Handling Commands
+   
+  | Keystrokes | Command Name                 |
+  | - -------- | ------------                 |
+  | C-x C-f    | find-file                    |
+  | C-x C-v    | find-alternate-file          |
+  | C-x i      | insert-file                  |
+  | C-x C-s    | save-buffer                  |
+  | C-x C-w    | write-file                   |
+  | C-x C-c    | save-buffers-kill-emacs      |
+  | C-h        | help-command                 |
+  | C-h f      | describe-function            |
+  | C-h k      | describe-key                 |
+  | C-h t      | help-with-tutorial           |
+  | C-h i      | info-goto-emacs-command-node |
+  
+** Cursor Movement Command
+  
+  | Keystrokes | Command Name        |
+  | - -------- | ------------        |
+  | C-f        | forward-char        |
+  | C-b        | backward-char       |
+  | C-p        | previous-line       |
+  | C-n        | next-line           |
+  | M-f        | forward-word        |
+  | M-b        | backward-word       |
+  | C-a        | begining-of-line    |
+  | C-e        | end-of-line         |
+  | M-e        | forward-sentence    |
+  | M-a        | backward-sentence   |
+  | M-}        | forward-paragraph   |
+  | M-{        | backward-paragraph  |
+  | C-v        | scroll-up           |
+  | M-v        | scroll-down         |
+  | C-x ]      | forward-page        |
+  | C-x [      | backward-page       |
+  | M-<        | beginning-of-buffer |
+  | M->        | end-of-buffer       |
+  | M-g M-g    | goto-line           |
+  | M-g g      | goto-line           |
+  | none       | goto-char           |
+  | C-l        | recenter            |
+  | M-(n)      | digit-argument      |
+  | C-u (n)    | universal-argument  |
+
+** Commands For Working With Regions (Cut, Copy, Paste, Yank, Kill)
+
+ | Keystrokes     | Command Name             |
+ | - --------     | ------------             |
+ | C-@ or C-Space | set-mark-command         |
+ | C-x C-x        | exchange-point-and-mark  |
+ | C-w            | kill-region              |
+ | C-y            | yank                     |
+ | M-w            | kill-ring-save           |
+ | M-h            | mark-paragraph           |
+ | C-x C-p        | mark-page                |
+ | C-x h          | mark-whole-buffer        |
+ | M-y            | yank-pop                 |
+ | none           | clipboard-kill-region    |
+ | none           | clipboard-yank           |
+ | none           | clipboard-kill-ring-save |
+
+** Transposition Commands
+  
+  | Keystrokes | Command Name         |
+  | - -------- | ------------         |
+  | C-t        | transpose-chars      |
+  | M-t        | transpose-words      |
+  | C-x C-t    | transpose-lines      |
+  | none       | transpose-sentences  |
+  | none       | transpose-paragraphs |
+
+** Captializatioin Commands
+ 
+  | Keystrokes | Command Name                     |
+  | - -------- | ------------                     |
+  | M-c        | capitalize-word                  |
+  | M-u        | upcase-word                      |
+  | M-l        | downcase-word                    |
+  | Met -M-c   | negative-augment;capitalize-word |
+  | Meta-M-u   | negative-augment;upcase-word     |
+  | Meta-M-l   | negative-augment;downcase-word   |
+
+** Stopping and Undoing Commands
+  | Keystrokes | Command Name    |
+  | - -------- | ------------    |
+  | C-g        | keyboard-quit   |
+  | C-x u      | advertised-undo |
+  | C-_        | undo            |
+  | C-/        | undo            |
+  | none       | revert-buffer   |
+
+** Incremental Search Commands
+
+  | Keystrokes | Command Name            |
+  | - -------- | ------------            |
+  | C-s        | isearch-forward         |
+  | C-r        | isearch-backward        |
+  | Enter      | isearc-exit             |
+  | C-g        | keyboard-quit           |
+  | Del        | isearch-delete-char     |
+  | C-s C-w    | isearch-yank-word       |
+  | C-s C-y    | isearch-yank-line       |
+  | C-s M-y    | isearch-yank-kill       |
+  | C-s C-s    | isearch-repeat-forward  |
+  | C-r C-r    | isearch-repeat-backward |
+
+** Regular Expression Search Command
+
+  | Keystrokes  | Command Name            |
+  | - --------  | ------------            |
+  | C-M-s Enter | re-search-forward       |
+  | C-M-r Enter | re-search-backward      |
+  | C-M-s       | isearch-forward-regexp  |
+  | C-M-r       | isearch-backward-regexp |
+  | C-M-%       | replace-regexp          |
+
+** Spell-checking commands
+
+  | Keystrokes | Command Name                |
+  | - -------- | ------------                |
+  | M-$        | ispell-word                 |
+  | none       | ispell-region               |
+  | none       | ispell-buffer               |
+  | none       | ispell-message              |
+  | none       | ispell-comments-and-strings |
+  | C-u M-$    | ispell-continue             |
+  | none       | ispell-kill-ispell          |
+  | M-tab      | ispell-complete-word        |
+  | none       | flyspell-mode               |
+  | none       | flyspell-buffer             |
+
+** Word Abbreviation Commands
+
+  | Keystrokes | Command Name              |
+  | - -------- | ------------              |
+  | M-/        | dabbrev-expand            |
+  | none       | abbrev-mode               |
+  | C-x a -    | inverse-add-global-abbrev |
+  | C-x a i g  | inverse-add-global-abbrev |
+  | C-x a i l  | inverse-add-mode-abbrev   |
+  | none       | unexpand-abbrev           |
+  | none       | write-abbrev-file         |
+  | none       | edit-abbrevs              |
+  | none       | list-abbrevs              |
+  | none       | kill-all-abbrevs          |
+
