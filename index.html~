@@ -4,9 +4,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>index</title>
-<!-- 2017-08-04 Fri 14:27 -->
+<!-- 2017-08-04 Fri 11:54 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Chris" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center; }
@@ -247,13 +248,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">C-x C-f</td>
 <td class="left">find-file</td>
@@ -324,13 +329,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">C-f</td>
 <td class="left">forward-char</td>
@@ -466,13 +475,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">C-@ or C-Space</td>
 <td class="left">set-mark-command</td>
@@ -548,13 +561,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">C-t</td>
 <td class="left">transpose-chars</td>
@@ -595,13 +612,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">M-c</td>
 <td class="left">capitalize-word</td>
@@ -647,13 +668,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">C-g</td>
 <td class="left">keyboard-quit</td>
@@ -694,13 +719,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">C-s</td>
 <td class="left">isearch-forward</td>
@@ -766,13 +795,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">C-M-s Enter</td>
 <td class="left">re-search-forward</td>
@@ -813,13 +846,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">M-$</td>
 <td class="left">ispell-word</td>
@@ -885,13 +922,17 @@ for the JavaScript code in this tag.
 
 <col  class="left" />
 </colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Keystrokes</th>
-<th scope="col" class="left">Command Name</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
 <tr>
 <td class="left">M-/</td>
 <td class="left">dabbrev-expand</td>
@@ -948,8 +989,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2017-08-04 Fri 14:27</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.2.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="author">Author: Chris</p>
+<p class="date">Created: 2017-08-04 Fri 11:54</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
