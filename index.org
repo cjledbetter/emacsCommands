@@ -13,7 +13,7 @@
 ** File Handling Commands
    
   | Keystrokes | Command Name                 |
-  | - -------- | ------------                 |
+  |------------+------------------------------|
   | C-x C-f    | find-file                    |
   | C-x C-v    | find-alternate-file          |
   | C-x i      | insert-file                  |
@@ -29,7 +29,7 @@
 ** Cursor Movement Command
   
   | Keystrokes | Command Name        |
-  | - -------- | ------------        |
+  |------------+---------------------|
   | C-f        | forward-char        |
   | C-b        | backward-char       |
   | C-p        | previous-line       |
@@ -58,7 +58,7 @@
 ** Commands For Working With Regions (Cut, Copy, Paste, Yank, Kill)
 
  | Keystrokes     | Command Name             |
- | - --------     | ------------             |
+ |----------------+--------------------------|
  | C-@ or C-Space | set-mark-command         |
  | C-x C-x        | exchange-point-and-mark  |
  | C-w            | kill-region              |
@@ -75,7 +75,7 @@
 ** Transposition Commands
   
   | Keystrokes | Command Name         |
-  | - -------- | ------------         |
+  |------------+----------------------|
   | C-t        | transpose-chars      |
   | M-t        | transpose-words      |
   | C-x C-t    | transpose-lines      |
@@ -85,7 +85,7 @@
 ** Captializatioin Commands
  
   | Keystrokes | Command Name                     |
-  | - -------- | ------------                     |
+  |------------+----------------------------------|
   | M-c        | capitalize-word                  |
   | M-u        | upcase-word                      |
   | M-l        | downcase-word                    |
@@ -95,7 +95,7 @@
 
 ** Stopping and Undoing Commands
   | Keystrokes | Command Name    |
-  | - -------- | ------------    |
+  |------------+-----------------|
   | C-g        | keyboard-quit   |
   | C-x u      | advertised-undo |
   | C-_        | undo            |
@@ -105,7 +105,7 @@
 ** Incremental Search Commands
 
   | Keystrokes | Command Name            |
-  | - -------- | ------------            |
+  |------------+-------------------------|
   | C-s        | isearch-forward         |
   | C-r        | isearch-backward        |
   | Enter      | isearc-exit             |
@@ -120,7 +120,7 @@
 ** Regular Expression Search Command
 
   | Keystrokes  | Command Name            |
-  | - --------  | ------------            |
+  |-------------+-------------------------|
   | C-M-s Enter | re-search-forward       |
   | C-M-r Enter | re-search-backward      |
   | C-M-s       | isearch-forward-regexp  |
@@ -130,7 +130,7 @@
 ** Spell-checking commands
 
   | Keystrokes | Command Name                |
-  | - -------- | ------------                |
+  |------------+-----------------------------|
   | M-$        | ispell-word                 |
   | none       | ispell-region               |
   | none       | ispell-buffer               |
@@ -145,7 +145,7 @@
 ** Word Abbreviation Commands
 
   | Keystrokes | Command Name              |
-  | - -------- | ------------              |
+  |------------+---------------------------|
   | M-/        | dabbrev-expand            |
   | none       | abbrev-mode               |
   | C-x a -    | inverse-add-global-abbrev |
