@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>index</title>
-<!-- 2017-08-02 Wed 21:42 -->
+<!-- 2017-08-04 Fri 11:54 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Chris" />
@@ -203,6 +203,10 @@ for the JavaScript code in this tag.
 <li><a href="#sec-1-5">1.5. Transposition Commands</a></li>
 <li><a href="#sec-1-6">1.6. Captializatioin Commands</a></li>
 <li><a href="#sec-1-7">1.7. Stopping and Undoing Commands</a></li>
+<li><a href="#sec-1-8">1.8. Incremental Search Commands</a></li>
+<li><a href="#sec-1-9">1.9. Regular Expression Search Command</a></li>
+<li><a href="#sec-1-10">1.10. Spell-checking commands</a></li>
+<li><a href="#sec-1-11">1.11. Word Abbreviation Commands</a></li>
 </ul>
 </li>
 </ul>
@@ -703,11 +707,290 @@ for the JavaScript code in this tag.
 </table>
 </div>
 </div>
+
+<div id="outline-container-sec-1-8" class="outline-3">
+<h3 id="sec-1-8"><span class="section-number-3">1.8</span> Incremental Search Commands</h3>
+<div class="outline-text-3" id="text-1-8">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
+<tr>
+<td class="left">C-s</td>
+<td class="left">isearch-forward</td>
+</tr>
+
+<tr>
+<td class="left">C-r</td>
+<td class="left">isearch-backward</td>
+</tr>
+
+<tr>
+<td class="left">Enter</td>
+<td class="left">isearc-exit</td>
+</tr>
+
+<tr>
+<td class="left">C-g</td>
+<td class="left">keyboard-quit</td>
+</tr>
+
+<tr>
+<td class="left">Del</td>
+<td class="left">isearch-delete-char</td>
+</tr>
+
+<tr>
+<td class="left">C-s C-w</td>
+<td class="left">isearch-yank-word</td>
+</tr>
+
+<tr>
+<td class="left">C-s C-y</td>
+<td class="left">isearch-yank-line</td>
+</tr>
+
+<tr>
+<td class="left">C-s M-y</td>
+<td class="left">isearch-yank-kill</td>
+</tr>
+
+<tr>
+<td class="left">C-s C-s</td>
+<td class="left">isearch-repeat-forward</td>
+</tr>
+
+<tr>
+<td class="left">C-r C-r</td>
+<td class="left">isearch-repeat-backward</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-1-9" class="outline-3">
+<h3 id="sec-1-9"><span class="section-number-3">1.9</span> Regular Expression Search Command</h3>
+<div class="outline-text-3" id="text-1-9">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
+<tr>
+<td class="left">C-M-s Enter</td>
+<td class="left">re-search-forward</td>
+</tr>
+
+<tr>
+<td class="left">C-M-r Enter</td>
+<td class="left">re-search-backward</td>
+</tr>
+
+<tr>
+<td class="left">C-M-s</td>
+<td class="left">isearch-forward-regexp</td>
+</tr>
+
+<tr>
+<td class="left">C-M-r</td>
+<td class="left">isearch-backward-regexp</td>
+</tr>
+
+<tr>
+<td class="left">C-M-%</td>
+<td class="left">replace-regexp</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-1-10" class="outline-3">
+<h3 id="sec-1-10"><span class="section-number-3">1.10</span> Spell-checking commands</h3>
+<div class="outline-text-3" id="text-1-10">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
+<tr>
+<td class="left">M-$</td>
+<td class="left">ispell-word</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">ispell-region</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">ispell-buffer</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">ispell-message</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">ispell-comments-and-strings</td>
+</tr>
+
+<tr>
+<td class="left">C-u M-$</td>
+<td class="left">ispell-continue</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">ispell-kill-ispell</td>
+</tr>
+
+<tr>
+<td class="left">M-tab</td>
+<td class="left">ispell-complete-word</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">flyspell-mode</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">flyspell-buffer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-1-11" class="outline-3">
+<h3 id="sec-1-11"><span class="section-number-3">1.11</span> Word Abbreviation Commands</h3>
+<div class="outline-text-3" id="text-1-11">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">Keystrokes</td>
+<td class="left">Command Name</td>
+</tr>
+
+<tr>
+<td class="left">- --------</td>
+<td class="left">------------</td>
+</tr>
+
+<tr>
+<td class="left">M-/</td>
+<td class="left">dabbrev-expand</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">abbrev-mode</td>
+</tr>
+
+<tr>
+<td class="left">C-x a -</td>
+<td class="left">inverse-add-global-abbrev</td>
+</tr>
+
+<tr>
+<td class="left">C-x a i g</td>
+<td class="left">inverse-add-global-abbrev</td>
+</tr>
+
+<tr>
+<td class="left">C-x a i l</td>
+<td class="left">inverse-add-mode-abbrev</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">unexpand-abbrev</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">write-abbrev-file</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">edit-abbrevs</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">list-abbrevs</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">kill-all-abbrevs</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Chris</p>
-<p class="date">Created: 2017-08-02 Wed 21:42</p>
+<p class="date">Created: 2017-08-04 Fri 11:54</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>

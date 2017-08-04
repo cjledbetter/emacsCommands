@@ -102,3 +102,58 @@
   | C-/        | undo            |
   | none       | revert-buffer   |
 
+** Incremental Search Commands
+
+  | Keystrokes | Command Name            |
+  | - -------- | ------------            |
+  | C-s        | isearch-forward         |
+  | C-r        | isearch-backward        |
+  | Enter      | isearc-exit             |
+  | C-g        | keyboard-quit           |
+  | Del        | isearch-delete-char     |
+  | C-s C-w    | isearch-yank-word       |
+  | C-s C-y    | isearch-yank-line       |
+  | C-s M-y    | isearch-yank-kill       |
+  | C-s C-s    | isearch-repeat-forward  |
+  | C-r C-r    | isearch-repeat-backward |
+
+** Regular Expression Search Command
+
+  | Keystrokes  | Command Name            |
+  | - --------  | ------------            |
+  | C-M-s Enter | re-search-forward       |
+  | C-M-r Enter | re-search-backward      |
+  | C-M-s       | isearch-forward-regexp  |
+  | C-M-r       | isearch-backward-regexp |
+  | C-M-%       | replace-regexp          |
+
+** Spell-checking commands
+
+  | Keystrokes | Command Name                |
+  | - -------- | ------------                |
+  | M-$        | ispell-word                 |
+  | none       | ispell-region               |
+  | none       | ispell-buffer               |
+  | none       | ispell-message              |
+  | none       | ispell-comments-and-strings |
+  | C-u M-$    | ispell-continue             |
+  | none       | ispell-kill-ispell          |
+  | M-tab      | ispell-complete-word        |
+  | none       | flyspell-mode               |
+  | none       | flyspell-buffer             |
+
+** Word Abbreviation Commands
+
+  | Keystrokes | Command Name              |
+  | - -------- | ------------              |
+  | M-/        | dabbrev-expand            |
+  | none       | abbrev-mode               |
+  | C-x a -    | inverse-add-global-abbrev |
+  | C-x a i g  | inverse-add-global-abbrev |
+  | C-x a i l  | inverse-add-mode-abbrev   |
+  | none       | unexpand-abbrev           |
+  | none       | write-abbrev-file         |
+  | none       | edit-abbrevs              |
+  | none       | list-abbrevs              |
+  | none       | kill-all-abbrevs          |
+
