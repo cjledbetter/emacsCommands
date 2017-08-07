@@ -9,7 +9,9 @@
     - [ ] Malware Bytes Free Anti-Malware
     - [ ] VLC
     - [ ] Steam
-    - [ ] Chrom
+    - [ ] Load Password & Fortress?
+    - [ ] Roblox password?
+    - [ ] Chrome
     - [ ] Firefox
     - [ ] 7 Zip
     - [ ] CCcleaner
