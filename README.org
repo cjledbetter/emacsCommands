@@ -157,3 +157,67 @@
   | none       | list-abbrevs              |
   | none       | kill-all-abbrevs          |
 
+** Frame Commands
+
+  | Keystrokes | Command Name                    |
+  |------------+---------------------------------|
+  | C-x 5 o    | other-frame                     |
+  | C-x 5 0    | delete-frame                    |
+  | C-z        | suspend-frame                   |
+  | C-x 5 2    | make-frame                      |
+  | C-x 5 f    | find-file-other-frame           |
+  | C-x 5 r    | find-file-read-only-other-frame |
+  | C-x 5 b    | switch-to-buffer-other-frame                      |
+
+** Buffer Manipulation Commands
+
+  | Keystrokes | Command Name        |
+  |------------+---------------------|
+  | C-x b      | switch-to-buffer    |
+  | C-x -->    | next-buffer         |
+  | C-x <--    | previous-buffer     |
+  | C-x C-b    | list-buffers        |
+  | C-x k      | kill-buffer         |
+  | none       | kill-some-buffers   |
+  | none       | rename-some-buffers |
+  | C-x s      | save-some-buffers   |
+
+** Window Commands
+
+  | Keystrokes | Command Name                        |
+  |------------+-------------------------------------|
+  | C-x 2      | split-window-vertically             |
+  | C-x 3      | split-window-horizontally           |
+  | C-x >      | scroll-right                        |
+  | C-x <      | scroll-left                         |
+  | C-x o      | other-window                        |
+  | C-x 0      | delete-window                       |
+  | C-x 1      | delete-other-window                 |
+  | none       | delete-windows-on                   |
+  | C-x ^      | enlarge-window                      |
+  | none       | shrink-window                       |
+  | C-x }      | enlarge-window-horizontally         |
+  | C-x {      | shrink-window-horizontally          |
+  | C-x -      | shrink-window-if-larger-than-buffer |
+  | C-x +      | balance-windows                     |
+  | C-M-v      | scroll-other-window                 |
+  | C-x 4 f    | find-file-other-window              |
+  | C-x 4 b    | swith-to-buffer-other-window        |
+  | none       | compare-windows                     |
+  
+** Commands for Editing the Bookmark List
+
+  | Keystrokes | Command Name             |
+  |------------+--------------------------|
+  | C-x r m    | bookmark-set             |
+  | C-x r b    | bookmark-jump            |
+  | none       | bookmark-rename          |
+  | none       | bookmark-delete          |
+  | C-x r l    | bookmark-bmenu-list      |
+  | none       | boomark-save             |
+  | none       | bookmark-insert          |
+  | none       | bookmark-write           |
+  | none       | bookmark-load            |
+  | none       | bookmark-insert-location |
+
+
