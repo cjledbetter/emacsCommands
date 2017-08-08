@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>index</title>
-<!-- 2017-08-07 Mon 21:35 -->
+<!-- 2017-08-08 Tue 11:24 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Chris" />
@@ -211,6 +211,9 @@ for the JavaScript code in this tag.
 <li><a href="#sec-1-13">1.13. Buffer Manipulation Commands</a></li>
 <li><a href="#sec-1-14">1.14. Window Commands</a></li>
 <li><a href="#sec-1-15">1.15. Commands for Editing the Bookmark List</a></li>
+<li><a href="#sec-1-16">1.16. Dired Commands</a></li>
+<li><a href="#sec-1-17">1.17. Printing Commands</a></li>
+<li><a href="#sec-1-18">1.18. Calendar: Holiday and diary commands</a></li>
 </ul>
 </li>
 </ul>
@@ -1253,11 +1256,532 @@ for the JavaScript code in this tag.
 </table>
 </div>
 </div>
+
+<div id="outline-container-sec-1-16" class="outline-3">
+<h3 id="sec-1-16"><span class="section-number-3">1.16</span> Dired Commands</h3>
+<div class="outline-text-3" id="text-1-16">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">C-x d</td>
+<td class="left">dired</td>
+</tr>
+
+<tr>
+<td class="left">A</td>
+<td class="left">dired-do-search</td>
+</tr>
+
+<tr>
+<td class="left">B</td>
+<td class="left">dired-do-byte-compile</td>
+</tr>
+
+<tr>
+<td class="left">C</td>
+<td class="left">dired-do-copy</td>
+</tr>
+
+<tr>
+<td class="left">d</td>
+<td class="left">dired-flag-file-deletion</td>
+</tr>
+
+<tr>
+<td class="left">D</td>
+<td class="left">dired-do-delete</td>
+</tr>
+
+<tr>
+<td class="left">e</td>
+<td class="left">dired-find-file</td>
+</tr>
+
+<tr>
+<td class="left">f</td>
+<td class="left">dired-advertised-find-file</td>
+</tr>
+
+<tr>
+<td class="left">g</td>
+<td class="left">revert-buffer</td>
+</tr>
+
+<tr>
+<td class="left">G</td>
+<td class="left">dired-do-chgrp</td>
+</tr>
+
+<tr>
+<td class="left">h</td>
+<td class="left">describe-mode</td>
+</tr>
+
+<tr>
+<td class="left">H</td>
+<td class="left">dired-do-hardlink</td>
+</tr>
+
+<tr>
+<td class="left">i</td>
+<td class="left">dired-maybe-insert-subdir</td>
+</tr>
+
+<tr>
+<td class="left">k</td>
+<td class="left">dired-do-kill-lines</td>
+</tr>
+
+<tr>
+<td class="left">L</td>
+<td class="left">dired-do-load</td>
+</tr>
+
+<tr>
+<td class="left">m or *m</td>
+<td class="left">dired-mark</td>
+</tr>
+
+<tr>
+<td class="left">M</td>
+<td class="left">dired-do-chmod</td>
+</tr>
+
+<tr>
+<td class="left">n</td>
+<td class="left">dired-next-line</td>
+</tr>
+
+<tr>
+<td class="left">o</td>
+<td class="left">dired-find-file-other-window</td>
+</tr>
+
+<tr>
+<td class="left">C-o</td>
+<td class="left">dired-display-file</td>
+</tr>
+
+<tr>
+<td class="left">O</td>
+<td class="left">dired-do-chown</td>
+</tr>
+
+<tr>
+<td class="left">P</td>
+<td class="left">dired-previous-line</td>
+</tr>
+
+<tr>
+<td class="left">P</td>
+<td class="left">dired-do-print</td>
+</tr>
+
+<tr>
+<td class="left">q</td>
+<td class="left">quit-window</td>
+</tr>
+
+<tr>
+<td class="left">Q</td>
+<td class="left">dired-do-query-replace</td>
+</tr>
+
+<tr>
+<td class="left">R</td>
+<td class="left">dired-do-rename</td>
+</tr>
+
+<tr>
+<td class="left">S</td>
+<td class="left">dired-do-symlink</td>
+</tr>
+
+<tr>
+<td class="left">s</td>
+<td class="left">dired-sort-toggle-or-edit</td>
+</tr>
+
+<tr>
+<td class="left">t</td>
+<td class="left">dired-toggle-marks</td>
+</tr>
+
+<tr>
+<td class="left">v</td>
+<td class="left">dired-view-file</td>
+</tr>
+
+<tr>
+<td class="left">w</td>
+<td class="left">dired-copy-filename-as-kill</td>
+</tr>
+
+<tr>
+<td class="left">x</td>
+<td class="left">dired-do-flagged-delete</td>
+</tr>
+
+<tr>
+<td class="left">y</td>
+<td class="left">dired-show-file-type</td>
+</tr>
+
+<tr>
+<td class="left">Z</td>
+<td class="left">dired-do-compress</td>
+</tr>
+
+<tr>
+<td class="left">-</td>
+<td class="left">dired-flag-backup-files</td>
+</tr>
+
+<tr>
+<td class="left">\#</td>
+<td class="left">dired-flag-auto-save-files</td>
+</tr>
+
+<tr>
+<td class="left">&amp;</td>
+<td class="left">dired-flag-garbage-files</td>
+</tr>
+
+<tr>
+<td class="left">.</td>
+<td class="left">dired-clean-directory</td>
+</tr>
+
+<tr>
+<td class="left">\=</td>
+<td class="left">dired-diff</td>
+</tr>
+
+<tr>
+<td class="left">M-=</td>
+<td class="left">dired-backup-diff</td>
+</tr>
+
+<tr>
+<td class="left">! or X</td>
+<td class="left">dired-do-shell-command</td>
+</tr>
+
+<tr>
+<td class="left">+</td>
+<td class="left">dired-create-directory</td>
+</tr>
+
+<tr>
+<td class="left">&gt;</td>
+<td class="left">dired-next-dirline</td>
+</tr>
+
+<tr>
+<td class="left">&lt;</td>
+<td class="left">dired-prev-dirline</td>
+</tr>
+
+<tr>
+<td class="left">\^</td>
+<td class="left">dired-up-directory</td>
+</tr>
+
+<tr>
+<td class="left">\$</td>
+<td class="left">dired-hide-subdirectory</td>
+</tr>
+
+<tr>
+<td class="left">M-$</td>
+<td class="left">dired-hide-all</td>
+</tr>
+
+<tr>
+<td class="left">C-M-n</td>
+<td class="left">dired-next-subdir</td>
+</tr>
+
+<tr>
+<td class="left">C-M-p</td>
+<td class="left">dired-prev-subdir</td>
+</tr>
+
+<tr>
+<td class="left">C-M-u</td>
+<td class="left">dired-tree-up</td>
+</tr>
+
+<tr>
+<td class="left">C-M-d</td>
+<td class="left">dired-tree-down</td>
+</tr>
+
+<tr>
+<td class="left">*c</td>
+<td class="left">dired-change-marks</td>
+</tr>
+
+<tr>
+<td class="left">*! or M-Del</td>
+<td class="left">dired-unmark-all-files</td>
+</tr>
+
+<tr>
+<td class="left">**</td>
+<td class="left">dired-mark-executables</td>
+</tr>
+
+<tr>
+<td class="left">*/</td>
+<td class="left">dired-mark-directories</td>
+</tr>
+
+<tr>
+<td class="left">*@</td>
+<td class="left">dired-mark-symlinks</td>
+</tr>
+
+<tr>
+<td class="left">M-}</td>
+<td class="left">dired-next-marked-file</td>
+</tr>
+
+<tr>
+<td class="left">M-{</td>
+<td class="left">dired-prev-marked-file</td>
+</tr>
+
+<tr>
+<td class="left">% d</td>
+<td class="left">dired-flag-files-regexp</td>
+</tr>
+
+<tr>
+<td class="left">% g</td>
+<td class="left">dired-mark-files-containing-regexp</td>
+</tr>
+
+<tr>
+<td class="left">% i</td>
+<td class="left">dired-downcase</td>
+</tr>
+
+<tr>
+<td class="left">% R</td>
+<td class="left">dired-do-rename-regexp</td>
+</tr>
+
+<tr>
+<td class="left">% u</td>
+<td class="left">dired-upcase</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-1-17" class="outline-3">
+<h3 id="sec-1-17"><span class="section-number-3">1.17</span> Printing Commands</h3>
+<div class="outline-text-3" id="text-1-17">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">none</td>
+<td class="left">print-buffer</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">print-region</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">lpr-buffer</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">lpr-region</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">ps-print-buffer-with-faces</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">ps-print-region-with-faces</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-1-18" class="outline-3">
+<h3 id="sec-1-18"><span class="section-number-3">1.18</span> Calendar: Holiday and diary commands</h3>
+<div class="outline-text-3" id="text-1-18">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">p d</td>
+<td class="left">calendar-print-day-of-year</td>
+</tr>
+
+<tr>
+<td class="left">p o</td>
+<td class="left">calendar-print-other-dates</td>
+</tr>
+
+<tr>
+<td class="left">Space</td>
+<td class="left">scroll-other-window</td>
+</tr>
+
+<tr>
+<td class="left">q</td>
+<td class="left">exit-calendar</td>
+</tr>
+
+<tr>
+<td class="left">a</td>
+<td class="left">list-calendar-holidays</td>
+</tr>
+
+<tr>
+<td class="left">h</td>
+<td class="left">calendar-cursor-holidays</td>
+</tr>
+
+<tr>
+<td class="left">x</td>
+<td class="left">mark-calendar-holidays</td>
+</tr>
+
+<tr>
+<td class="left">u</td>
+<td class="left">calendar-unmark</td>
+</tr>
+
+<tr>
+<td class="left">i w</td>
+<td class="left">insert-weekly-diary-entry</td>
+</tr>
+
+<tr>
+<td class="left">i y</td>
+<td class="left">insert-yearly-diary-entry</td>
+</tr>
+
+<tr>
+<td class="left">i d</td>
+<td class="left">insert-diary-entry</td>
+</tr>
+
+<tr>
+<td class="left">i m</td>
+<td class="left">insert-monthly-diary-entry</td>
+</tr>
+
+<tr>
+<td class="left">i c</td>
+<td class="left">insert-cyclic-diary-entry</td>
+</tr>
+
+<tr>
+<td class="left">i a</td>
+<td class="left">insert-anniversary-diary-entry</td>
+</tr>
+
+<tr>
+<td class="left">i b</td>
+<td class="left">insert-block-diary-entry</td>
+</tr>
+
+<tr>
+<td class="left">m</td>
+<td class="left">mark-diary-entries</td>
+</tr>
+
+<tr>
+<td class="left">d</td>
+<td class="left">view-diary-entries</td>
+</tr>
+
+<tr>
+<td class="left">s</td>
+<td class="left">show-all-diary-entries</td>
+</tr>
+
+<tr>
+<td class="left">M-=</td>
+<td class="left">calendar-count-days-region</td>
+</tr>
+
+<tr>
+<td class="left">M</td>
+<td class="left">calendar-phases-of-moon</td>
+</tr>
+
+<tr>
+<td class="left">S</td>
+<td class="left">calendar-sunrise-sunset</td>
+</tr>
+
+<tr>
+<td class="left">C-Space or C-@</td>
+<td class="left">calendar-set-mark</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Chris</p>
-<p class="date">Created: 2017-08-07 Mon 21:35</p>
+<p class="date">Created: 2017-08-08 Tue 11:24</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>

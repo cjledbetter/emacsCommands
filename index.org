@@ -220,4 +220,108 @@
   | none       | bookmark-load            |
   | none       | bookmark-insert-location |
 
+** Dired Commands
 
+  | Keystrokes  | Command Name                       |
+  |-------------+------------------------------------|
+  | C-x d       | dired                              |
+  | A           | dired-do-search                    |
+  | B           | dired-do-byte-compile              |
+  | C           | dired-do-copy                      |
+  | d           | dired-flag-file-deletion           |
+  | D           | dired-do-delete                    |
+  | e           | dired-find-file                    |
+  | f           | dired-advertised-find-file         |
+  | g           | revert-buffer                      |
+  | G           | dired-do-chgrp                     |
+  | h           | describe-mode                      |
+  | H           | dired-do-hardlink                  |
+  | i           | dired-maybe-insert-subdir          |
+  | k           | dired-do-kill-lines                |
+  | L           | dired-do-load                      |
+  | m or *m     | dired-mark                         |
+  | M           | dired-do-chmod                     |
+  | n           | dired-next-line                    |
+  | o           | dired-find-file-other-window       |
+  | C-o         | dired-display-file                 |
+  | O           | dired-do-chown                     |
+  | P           | dired-previous-line                |
+  | P           | dired-do-print                     |
+  | q           | quit-window                        |
+  | Q           | dired-do-query-replace             |
+  | R           | dired-do-rename                    |
+  | S           | dired-do-symlink                   |
+  | s           | dired-sort-toggle-or-edit          |
+  | t           | dired-toggle-marks                 |
+  | v           | dired-view-file                    |
+  | w           | dired-copy-filename-as-kill        |
+  | x           | dired-do-flagged-delete            |
+  | y           | dired-show-file-type               |
+  | Z           | dired-do-compress                  |
+  | -           | dired-flag-backup-files            |
+  | \#          | dired-flag-auto-save-files         |
+  | &           | dired-flag-garbage-files           |
+  | .           | dired-clean-directory              |
+  | \=          | dired-diff                         |
+  | M-=         | dired-backup-diff                  |
+  | ! or X      | dired-do-shell-command             |
+  | +           | dired-create-directory             |
+  | >           | dired-next-dirline                 |
+  | <           | dired-prev-dirline                 |
+  | \^          | dired-up-directory                 |
+  | \$          | dired-hide-subdirectory            |
+  | M-$         | dired-hide-all                     |
+  | C-M-n       | dired-next-subdir                  |
+  | C-M-p       | dired-prev-subdir                  |
+  | C-M-u       | dired-tree-up                      |
+  | C-M-d       | dired-tree-down                    |
+  | *c          | dired-change-marks                 |
+  | *! or M-Del | dired-unmark-all-files             |
+  | **          | dired-mark-executables             |
+  | */          | dired-mark-directories             |
+  | *@          | dired-mark-symlinks                |
+  | M-}         | dired-next-marked-file             |
+  | M-{         | dired-prev-marked-file             |
+  | % d         | dired-flag-files-regexp            |
+  | % g         | dired-mark-files-containing-regexp |
+  | % i         | dired-downcase                     |
+  | % R         | dired-do-rename-regexp             |
+  | % u         | dired-upcase                       |
+
+** Printing Commands
+
+  | Keystrokes | Command Name               |
+  |------------+----------------------------|
+  | none       | print-buffer               |
+  | none       | print-region               |
+  | none       | lpr-buffer                 |
+  | none       | lpr-region                 |
+  | none       | ps-print-buffer-with-faces |
+  | none       | ps-print-region-with-faces |
+
+** Calendar: Holiday and diary commands
+
+  | Keystrokes     | Command Name                   |
+  |----------------+--------------------------------|
+  | p d            | calendar-print-day-of-year     |
+  | p o            | calendar-print-other-dates     |
+  | Space          | scroll-other-window            |
+  | q              | exit-calendar                  |
+  | a              | list-calendar-holidays         |
+  | h              | calendar-cursor-holidays       |
+  | x              | mark-calendar-holidays         |
+  | u              | calendar-unmark                |
+  | i w            | insert-weekly-diary-entry      |
+  | i y            | insert-yearly-diary-entry      |
+  | i d            | insert-diary-entry             |
+  | i m            | insert-monthly-diary-entry     |
+  | i c            | insert-cyclic-diary-entry      |
+  | i a            | insert-anniversary-diary-entry |
+  | i b            | insert-block-diary-entry       |
+  | m              | mark-diary-entries             |
+  | d              | view-diary-entries             |
+  | s              | show-all-diary-entries         |
+  | M-=            | calendar-count-days-region     |
+  | M              | calendar-phases-of-moon        |
+  | S              | calendar-sunrise-sunset        |
+  | C-Space or C-@ | calendar-set-mark              |
