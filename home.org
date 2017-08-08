@@ -2,18 +2,4 @@
 ** Technology
 *** DONE To DO K Lenovo: save Pics and transfer to K HP
     CLOSED: [2017-08-07 Mon 14:15]
-*** TODO Factory Reset V Lenovo
-*** TODO Visit NINITE
-  - [ ] Software to download
-    - [ ] Avira
-    - [ ] Malware Bytes Free Anti-Malware
-    - [ ] VLC
-    - [ ] Steam
-    - [ ] Load Password & Fortress?
-    - [ ] Roblox password?
-    - [ ] Chrome
-    - [ ] Firefox
-    - [ ] 7 Zip
-    - [ ] CCcleaner
-*** TODO Clean Laptop with soft cloth
 *** TODO Pick up mouse (2) at Best Buy

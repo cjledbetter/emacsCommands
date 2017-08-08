@@ -202,7 +202,7 @@
   | C-x +      | balance-windows                     |
   | C-M-v      | scroll-other-window                 |
   | C-x 4 f    | find-file-other-window              |
-  | C-x 4 b    | swith-to-buffer-other-window        |
+  | C-x 4 b    | switch-to-buffer-other-window       |
   | none       | compare-windows                     |
   
 ** Commands for Editing the Bookmark List
