@@ -355,3 +355,21 @@
   | C-x C-k C-p   | kmacro-cycle-ring-previous                   |
   | C-x C-k C-n   | kmacro-cycle-ring-next                       |
   | C-x C-k r     | apply-macro-to-region-lines                  |
+
+* Text Editing
+** Indentation Commands
+  | Keystrokes | Command Name                |
+  |------------+-----------------------------|
+  | C-j        | newline-and-indent          |
+  | none       | paragraph-indent-text-mode  |
+  | none       | paragraph-indent-minor-mode |
+  | none       | fill-individual-paragraphs  |
+  | C-x Tab    | indent-rigidly              |
+  | C-m-\      | indent-region               |
+  | M-m        | back-to-indentation         |
+  | C-M-o      | split-line                  |
+  | none       | increase-left-margin        |
+  | none       | decrease-left-margin        |
+  | none       | decrease-right-margin       |
+  | none       | increase-right-margin       |
+  | C-x        | set-fill-prefix             |
