@@ -332,6 +332,7 @@
   | C-Space or C-@ | calendar-set-mark              |
 
 * Macros
+** Macro Commands
   | Keystrokes    | Command Name                                 |
   |---------------+----------------------------------------------|
   | C-x (         | kmacro-start-macro                           |
