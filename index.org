@@ -358,6 +358,14 @@
   | C-x C-k r     | apply-macro-to-region-lines                  |
 
 * Text Editing
+** Tab Commands
+  | Keystrokes | Command Name   |
+  |------------+----------------|
+  | none       | edit-tab-stops |
+  | none       | untabify       |
+  | none       | tabify         |
+
+
 ** Indentation Commands
   | Keystrokes | Command Name                |
   |------------+-----------------------------|
@@ -374,3 +382,34 @@
   | none       | decrease-right-margin       |
   | none       | increase-right-margin       |
   | C-x        | set-fill-prefix             |
+** Centering Commands
+  | Keystrokes | Command Name             |
+  |------------+--------------------------|
+  | M-s        | center-line              |
+  | M-S        | center-paragraph         |
+  | none       | center-region            |
+  | none       | set-justification-center |
+** Outline Mode Commands
+  | Keystrokes | Command Name                     |
+  |------------+----------------------------------|
+  | none       | outline-mode                     |
+  | C-c C-n    | outline-next-visible-heading     |
+  | C-c C-p    | outline-previous-visible-heading |
+  | C-c C-f    | outline-forward-same-level       |
+  | C-c C-b    | outline-backward-same-level      |
+  | C-c C-u    | ouline-up-heading                |
+  | C-c C-t    | hide-body                        |
+  | C-c C-a    | show-all                         |
+  | C-c C-q    | hide-sublevels                   |
+  | C-c C-o    | hide-other                       |
+  | C-c @      | outline-mark-subtree             |
+  | C-c C-^    | outline-promote                  |
+  | C-c C-v    | outline-demote                   |
+  | C-c C-d    | hide-subtree                     |
+  | C-c C-c    | hide-entry                       |
+  | C-c C-l    | hide-leaves                      |
+  | C-c C-s    | hide-subtree                     |
+  | C-c C-e    | show-entry                       |
+  | C-c C-k    | show-branches                    |
+  | C-c Tab    | show-children                    |
+

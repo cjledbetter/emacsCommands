@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>index</title>
-<!-- 2017-08-08 Tue 19:41 -->
+<!-- 2017-08-09 Wed 15:49 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Chris" />
@@ -244,7 +244,10 @@ for the JavaScript code in this tag.
 </li>
 <li><a href="#sec-8">8. Text Editing</a>
 <ul>
-<li><a href="#sec-8-1">8.1. Indentation Commands</a></li>
+<li><a href="#sec-8-1">8.1. Tab Commands</a></li>
+<li><a href="#sec-8-2">8.2. Indentation Commands</a></li>
+<li><a href="#sec-8-3">8.3. Centering Commands</a></li>
+<li><a href="#sec-8-4">8.4. Outline Mode Commands</a></li>
 </ul>
 </li>
 </ul>
@@ -2047,8 +2050,46 @@ for the JavaScript code in this tag.
 <h2 id="sec-8"><span class="section-number-2">8</span> Text Editing</h2>
 <div class="outline-text-2" id="text-8">
 </div><div id="outline-container-sec-8-1" class="outline-3">
-<h3 id="sec-8-1"><span class="section-number-3">8.1</span> Indentation Commands</h3>
+<h3 id="sec-8-1"><span class="section-number-3">8.1</span> Tab Commands</h3>
 <div class="outline-text-3" id="text-8-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">none</td>
+<td class="left">edit-tab-stops</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">untabify</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">tabify</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-sec-8-2" class="outline-3">
+<h3 id="sec-8-2"><span class="section-number-3">8.2</span> Indentation Commands</h3>
+<div class="outline-text-3" id="text-8-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -2132,11 +2173,173 @@ for the JavaScript code in this tag.
 </table>
 </div>
 </div>
+<div id="outline-container-sec-8-3" class="outline-3">
+<h3 id="sec-8-3"><span class="section-number-3">8.3</span> Centering Commands</h3>
+<div class="outline-text-3" id="text-8-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">M-s</td>
+<td class="left">center-line</td>
+</tr>
+
+<tr>
+<td class="left">M-S</td>
+<td class="left">center-paragraph</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">center-region</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">set-justification-center</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-8-4" class="outline-3">
+<h3 id="sec-8-4"><span class="section-number-3">8.4</span> Outline Mode Commands</h3>
+<div class="outline-text-3" id="text-8-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">none</td>
+<td class="left">outline-mode</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-n</td>
+<td class="left">outline-next-visible-heading</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-p</td>
+<td class="left">outline-previous-visible-heading</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-f</td>
+<td class="left">outline-forward-same-level</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-b</td>
+<td class="left">outline-backward-same-level</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-u</td>
+<td class="left">ouline-up-heading</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-t</td>
+<td class="left">hide-body</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a</td>
+<td class="left">show-all</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-q</td>
+<td class="left">hide-sublevels</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-o</td>
+<td class="left">hide-other</td>
+</tr>
+
+<tr>
+<td class="left">C-c @</td>
+<td class="left">outline-mark-subtree</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-^</td>
+<td class="left">outline-promote</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-v</td>
+<td class="left">outline-demote</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-d</td>
+<td class="left">hide-subtree</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-c</td>
+<td class="left">hide-entry</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-l</td>
+<td class="left">hide-leaves</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-s</td>
+<td class="left">hide-subtree</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-e</td>
+<td class="left">show-entry</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-k</td>
+<td class="left">show-branches</td>
+</tr>
+
+<tr>
+<td class="left">C-c Tab</td>
+<td class="left">show-children</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Chris</p>
-<p class="date">Created: 2017-08-08 Tue 19:41</p>
+<p class="date">Created: 2017-08-09 Wed 15:49</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
