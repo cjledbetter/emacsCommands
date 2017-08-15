@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Dynastar Glory 84 (2016) skis &amp; Tyrolia AAAttack 11 bindings</title>
+<!-- 2017-08-15 Tue 16:14 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Chris Ledbetter" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Dynastar Glory 84 (2016) skis &amp; Tyrolia AAAttack 11 bindings</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">Introduction</a>
+<ul>
+<li><a href="#sec-1-1">Goals</a></li>
+<li><a href="#sec-1-2">Impressions</a></li>
+<li><a href="#sec-1-3">Statistics</a>
+<ul>
+<li><a href="#sec-1-3-1">Glory 84</a></li>
+<li><a href="#sec-1-3-2">AAAttack 11</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-4">Philosophy for purchase</a></li>
+<li><a href="#sec-1-5">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+2016 Dynastar Glory 84 / AAAttack 11 skis and bindings review
+</p>
+</div>
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">Goals</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+My better half needed new skis (intermediate skier [maybe level 5]; athletic; intuitively good skier without 
+any lessons (also IMHO totally hot).  Started years ago on snow blades but learned that they are unstable at higher speeds.
+A few years ago we bought a used 2009-2010 Volkl Attiva Oceana 142cm [105-73-120].  Doesn't like the Volkl's thin 
+waist: careful skier that gets bogged down in crud conditions.  Her previous ski is now too narrow, too short and too heavy for its size.
+The goal was to find a ski that fits these parameters. The finalist were Volkl Yumi and Dynastar Glory 84.  I liked the Yumi because it 
+did not have a tip protector and the graphics were  a little nicer.  A pugski forum member noted that she liked the Yumi better than the 
+Glory 84 even though @Philpug noted they were virtually the same ski.  The forum member said that her body frame was probably larger than my
+wife and that was a contributing factor on why the Dynastar made more sense.
+</p>
+
+<ul class="org-ul">
+<li>Merchant
+</li>
+</ul>
+<p>
+Decided on ski waist @ 85mm and a longer, lighter ski.  After looking at used skis like the Kastle
+LX 82, we targeted the Dynastar Glory 84.  I felt it was a nice inexpensive,intermediate to advanced ski that 
+could be a tool that will help take her skiing to the next level that .  After surfing around, I  noted skiessentials.com 
+had the ski for @ $400.  I contacted "Jeff" via messaging on Pugski Forum at skieessentials and he immediately
+gave me a one time use 10% off coupon.  He then messaged me saying that management just decided to have
+a 20% off sale the following weekend.  With free shipping and free mounting the price became $320.  While not
+an unbelievable deal, I still think it's a steal.
+</p>
+
+<p>
+I ordered late Friday night and the skis arrived the following Wednesday via UPS.  We live in the Philadelphia area and 
+they shipped from Stowe, VT.  
+</p>
+
+<ul class="org-ul">
+<li>Customer Service
+</li>
+<li>Selection
+</li>
+<li>Shipping: Time and Cost
+</li>
+<li>Reason chose merchant
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2">Impressions</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Unboxing
+</li>
+<li>Condition
+</li>
+<li>Graphics
+</li>
+<li>Skis and Bindings
+</li>
+<li>Bottoms
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3">Statistics</h3>
+<div class="outline-text-3" id="text-1-3">
+</div><div id="outline-container-sec-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1">Glory 84</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<ul class="org-ul">
+<li>Weight
+<ul class="org-ul">
+<li>info from: <a href="http://www.powder7.com/sale-skis/weights_project.php">Powder 7 weights project</a>
+</li>
+<li>skis @ 6.5lbs
+</li>
+<li>bindings: 3.6lbs
+</li>
+<li>total @10lbs
+</li>
+</ul>
+</li>
+<li>dimensions: 10-84-122
+</li>
+<li>other stats found on evo site
+</li>
+</ul>
+<p>
+All mountain ski with a turning radius of 14m at 163.  This ski is made for relatively short radius turns but I suspect it will
+work well for a variety of turn shapes. This is a medium rockered ski with camber so should ski shorter than its 156.
+</p>
+<ul class="org-ul">
+<li>factory edge angles: 1, 1 (let me know if incorrect)
+<ul class="org-ul">
+<li>Info from: <a href="http://thepisteoffice.com/index.php/edge-angles-wax-data/15-ski-manufacturers-edge-angle-specifications.html">Factory Edge Angle Guide</a>
+</li>
+<li>Not going to change angles for her and see how it goes.  My preference for
+her is a 1, 2.
+</li>
+</ul>
+</li>
+<li>Flex
+</li>
+<li>Put skis in Pic for camber and then squeeze.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-3-2" class="outline-4">
+<h4 id="sec-1-3-2">AAAttack 11</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<p>
+Per Skis.com: 
+</p>
+<blockquote>
+<p>
+The Tyrolia Attack 11 is designed for intermediate or lightweight skiers looking for a lightweight package that is loaded with
+performance, and designed for skis wider than 80mm at the waist. Tyrolia's SX Heel locks you down and has fantastic energy transfer.
+The FR Toe has a low swingweight and horizontal springs that release you when you need to be and clamp you in when you need to be.
+21mm of stand height adds leverage, and helps you roll skis on edge easily and efficiently. The Attack footprint is a wider connection
+that reduces torsional twisting and extra responsiveness out of your skis.
+</p>
+</blockquote>
+<p>
+Per powder7.com: 
+</p>
+<blockquote>
+<p>
+The special Freeride (FR) Pro Toe with its horizontal spring reflects the modern architecture of the new Tyrolia AAA-Series. It includes
+a super secure 77 mm metal friction device (AFD Metal), which can be adjusted for alpine boots only.
+</p>
+
+<p>
+The AAAttack 11 features a solid construction, reduced weight and a new designed heel, which brings this model to a new level.
+</p>
+
+<p>
+FEATURES
+</p>
+<ul class="org-ul">
+<li>FR Pro Toe
+</li>
+<li>AFD Metal
+</li>
+<li>Race Heel
+</li>
+<li>Stand height only 17mm
+</li>
+</ul>
+</blockquote>
+<ul class="org-ul">
+<li>DIN: 3-11
+</li>
+<li>not sure which stand height is correct
+</li>
+<li>I think the toe is the same as the '13' but I think the heal piece is a little less sturdy.
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4">Philosophy for purchase</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+We only ski in the Poconos(Blue Mountain Resort).  BTW Pocono whiteouts are not to be missed, especially on a stopped chairlift.  In the near
+future we plan to move to NH/VT area so these skis should be versatile enough for light New England skiing.  Currently we ski on mostly man-made
+snow but the conditions change frequently from ice to very soft snow to slush at the end of season.  We are a one-ski quiver family, so versatility
+is important.
+</p>
+<ul class="org-ul">
+<li>Mostly man-made snow
+</li>
+<li>Conditions change often (not just hard-pack)
+</li>
+<li>one ski quiver
+</li>
+<li>previous ski too narrow, too heavy
+</li>
+<li>picked women's ski - seems co.'s starting to build skis specifically for women
+<ul class="org-ul">
+<li>lighter skis
+</li>
+<li>different flex and sidewall construction (?)
+</li>
+<li>Graphics more feminine
+</li>
+</ul>
+</li>
+<li>new vs. used
+<ul class="org-ul">
+<li>never owned used ski
+</li>
+<li>want tool that will take skiing to next level (advanced)
+</li>
+<li>careful skier - so hopefully something that can be skiid at variable speeds
+</li>
+</ul>
+</li>
+<li>Pugski sponsor - I identified skis and Glory 84 and Yumi were at top of list
+<ul class="org-ul">
+<li>Made sure to check sponsors to see if comparable pricing
+</li>
+<li>liked Yumi graphics better and did not have tip protector
+<ul class="org-ul">
+<li>one Pugski comment noted that she did not like Glory as much as Yumi because
+she thought Yumi was better for her larger frame
+</li>
+<li>This made me think the Glory may be have a little more flex which is a good thing
+for my wife who I presume has a smaller frame
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5">Conclusion</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+Ultimately we won't know if this was a good choice until she skis on them this winter.  I am very
+happy with skiessentials and recommend anyone looking for a new ski to shop on the
+Pugski sponsors sites and consider purchasing from them if their pricing is comparable to others
+that you are looking at.  Once the ski season starts, I will post another review on my wifes impressions
+and hopefully an on slope video or two of the skis in action.  I look forward to comments: How important 
+is weight of ski and binding to you?  Any parameters I should have considered not mentioned?  Any wrong facts etc.
+</p>
+<ul class="org-ul">
+<li>Ultimately won't know until skiid.
+</li>
+<li>Very happy with purchase and merchant
+</li>
+<li>Will provide updated review once on snow (Decemberish)
+</li>
+<li>Love to hear your comments: How important is weight of ski to you?  Any parameters
+I should have considered not mentioned?  Any wrong facts.
+</li>
+</ul>
+<p>
+Cheers
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Chris Ledbetter</p>
+<p class="date">Created: 2017-08-15 Tue 16:14</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

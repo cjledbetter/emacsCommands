@@ -1,38 +1,106 @@
-#+TITLE: Dynastar Glory 84 (2016)
+# -*- mode: org; -*-
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/bigblow.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+
+
+#+TITLE: Dynastar Glory 84 (2016) skis & Tyrolia AAAttack 11 bindings
 #+AUTHOR: Chris Ledbetter
+#+OPTIONS: num:nil
 
 * Introduction
-  This is a review of the 2016 Dynastar Glory 84 skis I just purchased
-  for my wife
+  2016 Dynastar Glory 84 / AAAttack 11 skis and bindings review
  
 ** Goals
-*** Buying Experience
+  My better half needed new skis (intermediate skier [maybe level 5]; athletic; intuitively good skier without 
+  any lessons (also IMHO totally hot).  Started years ago on snow blades but learned that they are unstable at higher speeds.
+  A few years ago we bought a used 2009-2010 Volkl Attiva Oceana 142cm [105-73-120].  Doesn't like the Volkl's thin 
+  waist: careful skier that gets bogged down in crud conditions.  Her previous ski is now too narrow, too short and too heavy for its size.
+  The goal was to find a ski that fits these parameters. The finalist were Volkl Yumi and Dynastar Glory 84.  I liked the Yumi because it 
+  did not have a tip protector and the graphics were  a little nicer.  A pugski forum member noted that she liked the Yumi better than the 
+  Glory 84 even though @Philpug noted they were virtually the same ski.  The forum member said that her body frame was probably larger than my
+  wife and that was a contributing factor on why the Dynastar made more sense.
+
   - Merchant
+  Decided on ski waist @ 85mm and a longer, lighter ski.  After looking at used skis like the Kastle
+  LX 82, we targeted the Dynastar Glory 84.  I felt it was a nice inexpensive,intermediate to advanced ski that 
+  could be a tool that will help take her skiing to the next level that .  After surfing around, I  noted skiessentials.com 
+  had the ski for @ $400.  I contacted "Jeff" via messaging on Pugski Forum at skieessentials and he immediately
+  gave me a one time use 10% off coupon.  He then messaged me saying that management just decided to have
+  a 20% off sale the following weekend.  With free shipping and free mounting the price became $320.  While not
+  an unbelievable deal, I still think it's a steal.
+
+  I ordered late Friday night and the skis arrived the following Wednesday via UPS.  We live in the Philadelphia area and 
+  they shipped from Stowe, VT.  
+  
   - Customer Service
   - Selection
   - Shipping: Time and Cost
   - Reason chose merchant
-*** Impressions
+** Impressions
   - Unboxing
   - Condition
   - Graphics
   - Skis and Bindings
   - Bottoms
-*** Statistics
+** Statistics
+*** Glory 84
   - Weight
-    * skis
-    * bindings
-    * total
-  - dimensions
+    * info from: [[http://www.powder7.com/sale-skis/weights_project.php][Powder 7 weights project]]
+    * skis @ 6.5lbs
+    * bindings: 3.6lbs
+    * total @10lbs
+  - dimensions: 10-84-122
   - other stats found on evo site
+  All mountain ski with a turning radius of 14m at 163.  This ski is made for relatively short radius turns but I suspect it will
+  work well for a variety of turn shapes. This is a medium rockered ski with camber so should ski shorter than its 156.
   - factory edge angles: 1, 1 (let me know if incorrect)
     * Info from: [[http://thepisteoffice.com/index.php/edge-angles-wax-data/15-ski-manufacturers-edge-angle-specifications.html][Factory Edge Angle Guide]]
     * Not going to change angles for her and see how it goes.  My preference for
       her is a 1, 2.
   - Flex
   - Put skis in Pic for camber and then squeeze.
-*** Phylosophy for purchase
-  - Pocono skiing (Blue Mountain Resort)
+*** AAAttack 11
+  Per Skis.com: 
+    #+BEGIN_QUOTE
+    The Tyrolia Attack 11 is designed for intermediate or lightweight skiers looking for a lightweight package that is loaded with
+    performance, and designed for skis wider than 80mm at the waist. Tyrolia's SX Heel locks you down and has fantastic energy transfer.
+    The FR Toe has a low swingweight and horizontal springs that release you when you need to be and clamp you in when you need to be.
+    21mm of stand height adds leverage, and helps you roll skis on edge easily and efficiently. The Attack footprint is a wider connection
+    that reduces torsional twisting and extra responsiveness out of your skis.
+    #+END_QUOTE
+   Per powder7.com: 
+    #+BEGIN_QUOTE
+    The special Freeride (FR) Pro Toe with its horizontal spring reflects the modern architecture of the new Tyrolia AAA-Series. It includes
+    a super secure 77 mm metal friction device (AFD Metal), which can be adjusted for alpine boots only.
+
+    The AAAttack 11 features a solid construction, reduced weight and a new designed heel, which brings this model to a new level.
+
+    FEATURES
+    - FR Pro Toe
+    - AFD Metal
+    - Race Heel
+    - Stand height only 17mm
+    #+END_QUOTE
+  - DIN: 3-11
+  - not sure which stand height is correct
+  - I think the toe is the same as the '13' but I think the heal piece is a little less sturdy.
+** Philosophy for purchase
+  We only ski in the Poconos(Blue Mountain Resort).  BTW Pocono whiteouts are not to be missed, especially on a stopped chairlift.  In the near
+  future we plan to move to NH/VT area so these skis should be versatile enough for light New England skiing.  Currently we ski on mostly man-made
+  snow but the conditions change frequently from ice to very soft snow to slush at the end of season.  We are a one-ski quiver family, so versatility
+  is important.
   - Mostly man-made snow
   - Conditions change often (not just hard-pack)
   - one ski quiver
@@ -52,7 +120,13 @@
       she thought Yumi was better for her larger frame
     - This made me think the Glory may be have a little more flex which is a good thing
       for my wife who I presume has a smaller frame
-*** Conclusion
+** Conclusion
+  Ultimately we won't know if this was a good choice until she skis on them this winter.  I am very
+  happy with skiessentials and recommend anyone looking for a new ski to shop on the
+  Pugski sponsors sites and consider purchasing from them if their pricing is comparable to others
+  that you are looking at.  Once the ski season starts, I will post another review on my wifes impressions
+  and hopefully an on slope video or two of the skis in action.  I look forward to comments: How important 
+  is weight of ski and binding to you?  Any parameters I should have considered not mentioned?  Any wrong facts etc.
   - Ultimately won't know until skiid.
   - Very happy with purchase and merchant
   - Will provide updated review once on snow (Decemberish)
