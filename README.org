@@ -1,5 +1,5 @@
 #+SETUPFILE: theme-readtheorg.setup
-
+#+TITLE: GNU EMACS Key-Bindings & COMMANDS
 * Emacs Commands
 ** Remapping keys
 *** Example
@@ -412,4 +412,73 @@
   | C-c C-e    | show-entry                       |
   | C-c C-k    | show-branches                    |
   | C-c Tab    | show-children                    |
-
+** Rectangle Commands
+  | Keystrokes       | Command Name                |
+  |------------------+-----------------------------|
+  | C-x r k          | kill-rectangle              |
+  | C-x r d          | delete-rectangle            |
+  | C-x r y          | yank-rectangle              |
+  | C-x r c          | clear-rectangle             |
+  | C-x r o          | open-rectangle              |
+  | C-x r r (n)      | copy-rectangle-to-register  |
+  | C-x r i (n)      | insert-register             |
+  | none             | delete-whitespace-rectangle |
+  | C-x r t (string) | string-rectangle            |
+  | none             | string-insert-rectangle     |
+** Picture Mode Commmands
+  | Keystrokes      | Command Name                         |
+  |-----------------+--------------------------------------|
+  | none            | picture-mode                         |
+  |                 | or edit-picture                      |
+  | C-c C-c         | picture-mode-exit                    |
+  | C-c ^           | picture-movement-up                  |
+  | C-c .           | picture-movement-down                |
+  | C-c >           | picture-movement-right               |
+  | C-c <           | picture-movement-left                |
+  | C-c `           | picture-movement-nw                  |
+  | C-c '           | picture-movement-ne                  |
+  | C-c /           | picture-movement-sw                  |
+  | C-c \           | picture-movement-se                  |
+  | C-c C-f         | picture-motion                       |
+  | C-c C-b         | picture-motion-reverse               |
+  | C-f             | picture-forward-column               |
+  | C-b             | picture-backward-column              |
+  | C-n             | picture-move-down                    |
+  | C-p             | picture-move-up                      |
+  | C-d             | picture-clear-column                 |
+  | C-c C-d         | delete-char                          |
+  | C-k             | picture-clear-line                   |
+  | C-o             | picture-open-line                    |
+  | C-c C-w (n)     | picture-clear-rectangle-to-register  |
+  | C-u C-c C-w (n) | picture-clear-rectangle-to-register  |
+  | C-c C-x (n)     | picture-yank-rectangle-from-register |
+  | C-c C-r         | picture-draw-rectangle               |
+  | C-c C-y         | picture-yank-rectangle               |
+  | C-c C-k         | picture-clear-rectangle              |
+  | C-c Tab         | picture-set-tab-stops                |
+  | M-Tab           | picture-tab-search                   |
+** Artist Mode Commands
+  | Keystrokes  | Command Name                    |
+  |-------------+---------------------------------|
+  | none        | artist-mode                     |
+  | C-c C-c     | artist-mode-off                 |
+  | C-f         | artist-forward-char             |
+  | C-b         | artist-backward-char            |
+  | C-n         | artist-next-line                |
+  | C-p         | artist-previous-line            |
+  | C-c C-a C-o | artist-select-operation         |
+  | or Mouse-2  |                                 |
+  | C-c C-a f   | artist-select-op-flood-fill     |
+  | C-c C-a C-k | artist-select-op-cut-rectangle  |
+  | C-c C-a M-w | artist-select-op-copy-rectangle |
+  | C-c C-a C-y | artist-select-op-paste          |
+  | C-c C-a v   | artist-select-op-vaporize-line  |
+  | C-c C-a C-d | artist-select-op-erase-char     |
+  | C-c C-a S   | artist-select-op-spray-can      |
+  | C-c C-a e   | artist-select-op-ellipse        |
+  | C-c C-a p   | artist-select-op-poly-line      |
+  | C-c C-a r   | artist-select-op-rectangle      |
+  | C-c C-a l   | artist-select-op-line           |
+  | C-c C-a r   | artist-toggle-rubber-banding    |
+  | C-c C-a C-l | artist-select-line-char         |
+  | C-c C-a C-f | artist-select-fill-char         |

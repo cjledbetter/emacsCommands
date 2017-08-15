@@ -3,8 +3,8 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>index</title>
-<!-- 2017-08-09 Wed 15:49 -->
+<title>GNU EMACS Key-Bindings &amp; COMMANDS</title>
+<!-- 2017-08-14 Mon 20:25 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Chris" />
@@ -185,7 +185,7 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">index</h1>
+<h1 class="title">GNU EMACS Key-Bindings &amp; COMMANDS</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
@@ -248,12 +248,14 @@ for the JavaScript code in this tag.
 <li><a href="#sec-8-2">8.2. Indentation Commands</a></li>
 <li><a href="#sec-8-3">8.3. Centering Commands</a></li>
 <li><a href="#sec-8-4">8.4. Outline Mode Commands</a></li>
+<li><a href="#sec-8-5">8.5. Rectangle Commands</a></li>
+<li><a href="#sec-8-6">8.6. Picture Mode Commmands</a></li>
+<li><a href="#sec-8-7">8.7. Artist Mode Commands</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-
 <div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1"><span class="section-number-2">1</span> Emacs Commands</h2>
 <div class="outline-text-2" id="text-1">
@@ -2335,11 +2337,379 @@ for the JavaScript code in this tag.
 </table>
 </div>
 </div>
+<div id="outline-container-sec-8-5" class="outline-3">
+<h3 id="sec-8-5"><span class="section-number-3">8.5</span> Rectangle Commands</h3>
+<div class="outline-text-3" id="text-8-5">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">C-x r k</td>
+<td class="left">kill-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-x r d</td>
+<td class="left">delete-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-x r y</td>
+<td class="left">yank-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-x r c</td>
+<td class="left">clear-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-x r o</td>
+<td class="left">open-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-x r r (n)</td>
+<td class="left">copy-rectangle-to-register</td>
+</tr>
+
+<tr>
+<td class="left">C-x r i (n)</td>
+<td class="left">insert-register</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">delete-whitespace-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-x r t (string)</td>
+<td class="left">string-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">none</td>
+<td class="left">string-insert-rectangle</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-8-6" class="outline-3">
+<h3 id="sec-8-6"><span class="section-number-3">8.6</span> Picture Mode Commmands</h3>
+<div class="outline-text-3" id="text-8-6">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">none</td>
+<td class="left">picture-mode</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">or edit-picture</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-c</td>
+<td class="left">picture-mode-exit</td>
+</tr>
+
+<tr>
+<td class="left">C-c ^</td>
+<td class="left">picture-movement-up</td>
+</tr>
+
+<tr>
+<td class="left">C-c .</td>
+<td class="left">picture-movement-down</td>
+</tr>
+
+<tr>
+<td class="left">C-c &gt;</td>
+<td class="left">picture-movement-right</td>
+</tr>
+
+<tr>
+<td class="left">C-c &lt;</td>
+<td class="left">picture-movement-left</td>
+</tr>
+
+<tr>
+<td class="left">C-c `</td>
+<td class="left">picture-movement-nw</td>
+</tr>
+
+<tr>
+<td class="left">C-c '</td>
+<td class="left">picture-movement-ne</td>
+</tr>
+
+<tr>
+<td class="left">C-c /</td>
+<td class="left">picture-movement-sw</td>
+</tr>
+
+<tr>
+<td class="left">C-c \</td>
+<td class="left">picture-movement-se</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-f</td>
+<td class="left">picture-motion</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-b</td>
+<td class="left">picture-motion-reverse</td>
+</tr>
+
+<tr>
+<td class="left">C-f</td>
+<td class="left">picture-forward-column</td>
+</tr>
+
+<tr>
+<td class="left">C-b</td>
+<td class="left">picture-backward-column</td>
+</tr>
+
+<tr>
+<td class="left">C-n</td>
+<td class="left">picture-move-down</td>
+</tr>
+
+<tr>
+<td class="left">C-p</td>
+<td class="left">picture-move-up</td>
+</tr>
+
+<tr>
+<td class="left">C-d</td>
+<td class="left">picture-clear-column</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-d</td>
+<td class="left">delete-char</td>
+</tr>
+
+<tr>
+<td class="left">C-k</td>
+<td class="left">picture-clear-line</td>
+</tr>
+
+<tr>
+<td class="left">C-o</td>
+<td class="left">picture-open-line</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-w (n)</td>
+<td class="left">picture-clear-rectangle-to-register</td>
+</tr>
+
+<tr>
+<td class="left">C-u C-c C-w (n)</td>
+<td class="left">picture-clear-rectangle-to-register</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-x (n)</td>
+<td class="left">picture-yank-rectangle-from-register</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-r</td>
+<td class="left">picture-draw-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-y</td>
+<td class="left">picture-yank-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-k</td>
+<td class="left">picture-clear-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-c Tab</td>
+<td class="left">picture-set-tab-stops</td>
+</tr>
+
+<tr>
+<td class="left">M-Tab</td>
+<td class="left">picture-tab-search</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-8-7" class="outline-3">
+<h3 id="sec-8-7"><span class="section-number-3">8.7</span> Artist Mode Commands</h3>
+<div class="outline-text-3" id="text-8-7">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keystrokes</th>
+<th scope="col" class="left">Command Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">none</td>
+<td class="left">artist-mode</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-c</td>
+<td class="left">artist-mode-off</td>
+</tr>
+
+<tr>
+<td class="left">C-f</td>
+<td class="left">artist-forward-char</td>
+</tr>
+
+<tr>
+<td class="left">C-b</td>
+<td class="left">artist-backward-char</td>
+</tr>
+
+<tr>
+<td class="left">C-n</td>
+<td class="left">artist-next-line</td>
+</tr>
+
+<tr>
+<td class="left">C-p</td>
+<td class="left">artist-previous-line</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a C-o</td>
+<td class="left">artist-select-operation</td>
+</tr>
+
+<tr>
+<td class="left">or Mouse-2</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a f</td>
+<td class="left">artist-select-op-flood-fill</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a C-k</td>
+<td class="left">artist-select-op-cut-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a M-w</td>
+<td class="left">artist-select-op-copy-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a C-y</td>
+<td class="left">artist-select-op-paste</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a v</td>
+<td class="left">artist-select-op-vaporize-line</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a C-d</td>
+<td class="left">artist-select-op-erase-char</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a S</td>
+<td class="left">artist-select-op-spray-can</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a e</td>
+<td class="left">artist-select-op-ellipse</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a p</td>
+<td class="left">artist-select-op-poly-line</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a r</td>
+<td class="left">artist-select-op-rectangle</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a l</td>
+<td class="left">artist-select-op-line</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a r</td>
+<td class="left">artist-toggle-rubber-banding</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a C-l</td>
+<td class="left">artist-select-line-char</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-a C-f</td>
+<td class="left">artist-select-fill-char</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Chris</p>
-<p class="date">Created: 2017-08-09 Wed 15:49</p>
+<p class="date">Created: 2017-08-14 Mon 20:25</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
